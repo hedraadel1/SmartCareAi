@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{320F3DBD-90E7-4537-A73C-9C676DFC6A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCareAI.Domain", "src\SmartCareAI.Domain\SmartCareAI.Domain.csproj", "{B2501820-F17F-41A2-81D1-01BED5E966B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCareAI.Application", "src\SmartCareAI.Application\SmartCareAI.Application.csproj", "{45F68956-8931-4636-BCF2-C90032FB4259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCareAI.Infrastructure", "src\SmartCareAI.Infrastructure\SmartCareAI.Infrastructure.csproj", "{CBDA1757-A037-422E-AB27-E64A8F380C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartCareAI.Api", "src\SmartCareAI.Api\SmartCareAI.Api.csproj", "{981EB7B1-BF82-4D2F-A6D3-32DF17A63E15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2501820-F17F-41A2-81D1-01BED5E966B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2501820-F17F-41A2-81D1-01BED5E966B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2501820-F17F-41A2-81D1-01BED5E966B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2501820-F17F-41A2-81D1-01BED5E966B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F68956-8931-4636-BCF2-C90032FB4259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F68956-8931-4636-BCF2-C90032FB4259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F68956-8931-4636-BCF2-C90032FB4259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F68956-8931-4636-BCF2-C90032FB4259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDA1757-A037-422E-AB27-E64A8F380C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDA1757-A037-422E-AB27-E64A8F380C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDA1757-A037-422E-AB27-E64A8F380C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDA1757-A037-422E-AB27-E64A8F380C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981EB7B1-BF82-4D2F-A6D3-32DF17A63E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981EB7B1-BF82-4D2F-A6D3-32DF17A63E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981EB7B1-BF82-4D2F-A6D3-32DF17A63E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981EB7B1-BF82-4D2F-A6D3-32DF17A63E15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2501820-F17F-41A2-81D1-01BED5E966B7} = {320F3DBD-90E7-4537-A73C-9C676DFC6A74}
+		{45F68956-8931-4636-BCF2-C90032FB4259} = {320F3DBD-90E7-4537-A73C-9C676DFC6A74}
+		{CBDA1757-A037-422E-AB27-E64A8F380C54} = {320F3DBD-90E7-4537-A73C-9C676DFC6A74}
+		{981EB7B1-BF82-4D2F-A6D3-32DF17A63E15} = {320F3DBD-90E7-4537-A73C-9C676DFC6A74}
+	EndGlobalSection
+EndGlobal
